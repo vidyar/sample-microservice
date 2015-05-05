@@ -1,0 +1,53 @@
+{
+  "name": "microbe",
+  "version": "0.0.1",
+  "main": "microbe.app.js",
+  "scripts": {
+    "start": "node microbe.app.js"
+  },
+  "repository":"shippableSamples/sample-microservice",
+  "dependencies": {
+    "amqp": "^0.2.0",
+    "async": "~0.2.10",
+    "body-parser": "^1.2.2",
+    "express": "~4.3.1",
+    "request": "~2.36.0",
+    "underscore": "~1.5.2",
+    "winston": "^0.7.3"
+  },
+  "jshintConfig": {
+    "node": true,
+    "jquery": true,
+    "undef": true,
+    "noarg": true,
+    "white": true,
+    "esnext": true,
+    "strict": true,
+    "newcap": true,
+    "nonbsp": true,
+    "eqeqeq": true,
+    "unused": true,
+    "maxlen": 80,
+    "indent": 2,
+    "bitwise": true,
+    "noempty": true,
+    "latedef": "nofunc",
+    "maxdepth": 5,
+    "quotmark": "single",
+    "trailing": true,
+    "maxparams": 18,
+    "globalstrict": true,
+    "maxcomplexity": 20,
+    "maxstatements": 50,
+    "predef": [
+      "logger",
+      "ActErr",
+      "process",
+      "config",
+      "AMQP",
+      "app",
+      "MicroService",
+      "server"
+    ]
+  }
+}
