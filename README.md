@@ -9,7 +9,6 @@ run onebox.sh.
 go to localhost:61590
 
 ## Dependencies
-(note: not a comprehensive list)  
 - Ubuntu (tested on 14.04)
 - Docker (tested on 1.5.0)
   - How to install docker on ubuntu https://docs.docker.com/installation/ubuntulinux/
