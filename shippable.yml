@@ -6,4 +6,6 @@ node_js:
 env:
   - RUN_MODE=beta
 
+
 script: true
+archive: true
